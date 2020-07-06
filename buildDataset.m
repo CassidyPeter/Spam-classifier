@@ -12,8 +12,8 @@ else
     n = 1899; %Length of vocab list
 
     %Locate raw data
-    spamdir = '/Users/petercassidy/Documents/MATLAB/Spam_classifier/Spam_data/spam';
-    hamdir = '/Users/petercassidy/Documents/MATLAB/Spam_classifier/Spam_data/easy_ham';
+    spamdir = unzip('Compressed_data/Spam/spam.zip', 'Spam');
+    hamdir = unzip('Compressed_data/Ham/ham.zip', 'Ham');
     spamfiledir = dir(fullfile(spamdir, '*.txt'));
     hamfiledir = dir(fullfile(hamdir, '*.txt'));
 
