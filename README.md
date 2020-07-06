@@ -12,3 +12,8 @@ Repository contents:
  - vocab.txt - List of top spam predictive words, refined from finding highest weights of the model. Original vocab list consisted of high frequency words occuring in spam dataset.
  - spamTrain.mat - Training dataset compiled in buildDataset.m, containing Xtrain and ytrain.
  - spamTest.mat - Testing dataset compiled in buildDataset.m, containing Xtest and ytest.
+ 
+ Future plans:
+  - Increase relevance of training dataset (data is from early 2000's) to account for changes in spam email patterns (large quantities of relevant spam data is difficult to collect).
+  - Expand usability of classifier (allow for user to load own email source and classify accordingly)
+  - Tweak pre-processing and processing of emails.
